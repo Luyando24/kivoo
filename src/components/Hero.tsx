@@ -6,7 +6,7 @@ export function Hero() {
     <section className="pt-32 pb-20 px-6 bg-accent-gray min-h-[85vh] flex items-center">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         {/* Left Content */}
-        <div className="text-center lg:text-left order-2 lg:order-1">
+        <div className="text-center lg:text-left">
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 text-black leading-tight">
             Luxury Defined.
           </h1>
@@ -31,7 +31,7 @@ export function Hero() {
         </div>
 
         {/* Right Product Image */}
-        <div className="relative order-1 lg:order-2">
+        <div className="relative">
            {/* Decorative background blur */}
            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[140%] h-[140%] bg-white/40 rounded-full blur-3xl -z-10" />
            
@@ -39,7 +39,7 @@ export function Hero() {
           <div className="relative aspect-square w-full max-w-md mx-auto bg-gray-100 rounded-[2.5rem] shadow-2xl flex items-center justify-center overflow-hidden border border-white/60">
             <Image 
               src="/products/O1CN01amOeEc25DqpLbTbZh_!!2216142987493-0-cib.jpg" 
-              alt="Velvet Accent Chair" 
+              alt="Smart Refrigerator" 
               fill 
               className="object-cover object-center"
               priority
@@ -52,8 +52,8 @@ export function Hero() {
           {/* Floating Label */}
           <div className="absolute -bottom-6 -right-6 lg:right-0 bg-white/80 backdrop-blur-md p-4 rounded-2xl shadow-lg border border-white/50 animate-bounce delay-700">
             <p className="text-xs font-bold text-gray-500 uppercase tracking-wider mb-1">New Arrival</p>
-            <p className="text-lg font-bold text-black">Velvet Accent Chair</p>
-            <p className="text-sm text-gray-600">K1,100</p>
+            <p className="text-lg font-bold text-black">Smart Refrigerator</p>
+            <p className="text-sm text-gray-600">K25,000</p>
           </div>
         </div>
       </div>

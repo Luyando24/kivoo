@@ -3,7 +3,7 @@ export function Footer() {
     <footer className="bg-accent-gray py-12 px-6 mt-20">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
         <div className="col-span-1 md:col-span-2">
-          <h3 className="text-xl font-bold mb-4">KIVOO</h3>
+          <h3 className="text-2xl font-black tracking-widest italic mb-4">KIVOO</h3>
           <p className="text-text-gray max-w-sm">
             Bringing affordable luxury and durability to homes in Lusaka, Zambia. 
             Modern design meets everyday utility.
