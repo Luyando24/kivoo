@@ -27,8 +27,19 @@ export function Footer() {
           </ul>
         </div>
       </div>
-      <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-gray-200 text-center text-sm text-text-gray">
-        &copy; {new Date().getFullYear()} KIVOO. All rights reserved.
+      <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-gray-200 text-center text-sm text-text-gray flex flex-col md:flex-row justify-between items-center gap-4">
+        <p>&copy; {new Date().getFullYear()} KIVOO. All rights reserved.</p>
+        <p>
+          Designed in Zambia by{" "}
+          <a 
+            href="https://spaceminds.agency/" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="text-black font-medium hover:underline"
+          >
+            Spaceminds
+          </a>
+        </p>
       </div>
     </footer>
   );
